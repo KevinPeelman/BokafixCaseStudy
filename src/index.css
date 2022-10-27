@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #CBCBCA;
 }
 
 code {
@@ -13,20 +14,96 @@ code {
 }
 
 #mapId {
-  height:100vh;
-  width:100vw;
+  height:400px;
+  width:500px;
+  margin: auto;
 }
 
-button{
+#moveToCenterButton, #moveRandomlyButton{
   position: absolute;
-  top: 50px;
-  left: 150px;
+  top: 330px;
+  left: 50px;
   z-index:2000;
-  width:100px;
+  width:150px;
   height:50px;
-  color:gray;
+  color:white;
+  font-size: 10px;
+  text-transform: none;
+}
+
+#moveRandomlyButton{
+  background-color: #2FC0EF;
 }
 
 #moveToCenterButton{
-  left: 250px;
+  left: 300px;
+  background-color: #9A2FEE;
+}
+
+#outlined-textfield{
+  text-align: center;
+  margin: auto;
+  background: none;
+  box-shadow: none;
+  color: white;
+  font-weight: bold;
+  margin: 20px 0px 20px 0px;
+}
+
+h3{
+  text-align: center;
+  margin: auto;
+  margin: 20px 0px 20px 0px;
+}
+
+#dragAndDrop{
+  width: 300px;
+  background: #f5f5f5;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+#dragAndDropButton{
+  padding: 5px;
+  width: 70px;
+  color: black;
+  font-size: 12px;
+  text-transform: none;
+  background-color: white;
+}
+
+
+#dragAndDropText{
+  width: 180px;
+  padding-left: 10px;
+}
+
+#dragAndDropIcon{
+  padding: 10px;
+  float: right;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#form{
+  margin: auto;
+  align-content: center;
+  display: block;
+  justify-content: center;
+  width: 300px;
+}
+
+#emailTextField{
+  width: 292px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+#descriptionTextField{
+  width: 294px;
+  height: 100px;
+  margin-bottom: 10px;
 }

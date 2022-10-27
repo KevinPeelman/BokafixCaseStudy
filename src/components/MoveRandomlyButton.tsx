@@ -1,3 +1,4 @@
+import Button from "@mui/material/Button";
 import { useMap } from "react-leaflet";
 
 interface Props {}
@@ -10,7 +11,7 @@ const AddMarkerButton: React.FC<Props> = (props) => {
         map.flyTo({lat:Math.random()*180-90,lng:Math.random()*360-180});
     }
 
-    return <button onClick={onMoveRandomly}>Move randomly</button>
+    return <Button variant="contained" id="moveRandomlyButton" onClick={onMoveRandomly} >Teleport me to somewhere random</Button>
 }
 
 export default AddMarkerButton;

@@ -1,3 +1,4 @@
+import Button from "@mui/material/Button";
 import { useMap } from "react-leaflet";
 
 interface Props {}
@@ -17,7 +18,7 @@ const MoveToCenterButton: React.FC<Props> = (props) => {
         map.flyTo(center);
     }
 
-    return <button id="moveToCenterButton" onClick={onMoveToCenter}>Move to center</button>
+    return <Button variant="contained" id="moveToCenterButton"  onClick={onMoveToCenter} >Bring me back home</Button>
 }
 
 export default MoveToCenterButton;
