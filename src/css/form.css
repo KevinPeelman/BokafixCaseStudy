@@ -1,0 +1,29 @@
+  #form {
+      margin: auto;
+      align-content: center;
+      display: block;
+      justify-content: center;
+      width: 300px;
+  }
+
+  #outlined-textfield {
+      text-align: center;
+      margin: auto;
+      background: none;
+      box-shadow: none;
+      color: white;
+      font-weight: bold;
+      margin: 20px 0px 20px 0px;
+  }
+
+  #emailTextField {
+      width: 292px;
+      height: 20px;
+      margin-bottom: 10px;
+  }
+
+  #descriptionTextField {
+      width: 294px;
+      height: 100px;
+      margin-bottom: 10px;
+  }

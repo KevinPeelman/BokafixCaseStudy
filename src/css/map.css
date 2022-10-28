@@ -1,0 +1,27 @@
+#mapId {
+    height: 400px;
+    width: 500px;
+    margin: auto;
+}
+
+#moveToCenterButton,
+#moveRandomlyButton {
+    position: absolute;
+    top: 330px;
+    left: 50px;
+    z-index: 2000;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 10px;
+    text-transform: none;
+}
+
+#moveRandomlyButton {
+    background-color: #2FC0EF;
+}
+
+#moveToCenterButton {
+    left: 300px;
+    background-color: #9A2FEE;
+}
